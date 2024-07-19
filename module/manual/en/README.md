@@ -1,6 +1,6 @@
 # System documentation for version 0.10.0
 
-This document is a work in progress overview of the CoC7 system it is not a tutorial for how to use FoundryVTT.
+This document is an overview of the CoC7 system, not a tutorial for how to use FoundryVTT. It is also a work in progress.
 
 You will need one of the following to play the game
 
@@ -10,24 +10,24 @@ You will need one of the following to play the game
 
 The system automates most of the regular tasks and rules involved with running a game.
 
-Several parts of the actor sheets have pop up tooltips that trigger after two seconds, this delay can be changed in the settings
+Several parts of the actor sheets have pop up tooltips that trigger after two seconds. This delay can be changed in the settings.
 
 This documentation can be reopened under [fas fa-cogs]Game Settings -> Help and Documentation -> View CoC7 System Manual
 
 # Recent changes
 
-For a full list of changes checkout the [changelog](https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/blob/develop/.github/CHANGELOG.md) on GitHub
+For a full list of changes, checkout the [changelog](https://github.com/Miskatonic-Investigative-Society/CoC7-FoundryVTT/blob/develop/.github/CHANGELOG.md) on GitHub
 
- - [CoC ID system](coc-id-system.md) - Set tags on documents for example i.skill.dodge to find dodge skills on actors
- - Investigator Wizard - Use CoC ID Items to create investigators
- - [Pulp Rules](#settings-overview) - Implement optional pulp rule to ignore age when calculating movement speed
- - [Active effects](effects.md) - Add support for bonus/penalty dice when rolling from the Actor sheets
+ - [CoC ID system](coc-id-system.md) - Set tags on documents. For example, set i.skill.dodge to find dodge skills on actors.
+ - Investigator Wizard - Use CoC ID Items to create investigators.
+ - [Pulp Rules](#settings-overview) - Implement optional pulp rule to ignore age when calculating movement speed.
+ - [Active effects](effects.md) - Add support for bonus/penalty dice when rolling from the Actor sheets.
 
 # Overview sections below
 
-If this is your first time it is recommends you also read the following sections on this page.
+If this is your first time, it is recommended that you also read the following sections on this page.
 
-Foundry VTT is based in actors and items. This module includes a number of system specific actors and items, and some examples of them can be found in the included system compendiums.
+Foundry VTT is based on actors and items. This module includes a number of system specific actors and items. Some examples of these can be found in the included system compendiums.
 
 - [Actor overview](#actor-overview)
 - [Items overview](#items-overview)
@@ -39,7 +39,7 @@ Foundry VTT is based in actors and items. This module includes a number of syste
 
 # How to use the system
 
-- [Active effects](effects.md) - An active effect will modify an actor characteristic(s), attribute(s), skill(s).
+- [Active effects](effects.md) - An active effect will modify an actor's characteristic(s), attribute(s), and/or skill(s).
 - [Actor importer](actor_importer.md)
 - Actor Type: Character (TODO)
 - Actor Type: Container (TODO)
@@ -86,12 +86,12 @@ Foundry VTT is based in actors and items. This module includes a number of syste
 - _Skill_ - A skill with a base percentage and some tags. @Compendium[CoC7.skills.UOuN0gESXPp2HXwH]{Example Skill}
 - _Spell_ - A magic spell.
 - _Status_ - An phobia or mania condition. @Compendium[CoC7.items.DVdvEDizPZPux1pK]{Example Mania}
-- _Talent_ -A special power for Pulp Cthulhu. These do not trigger automation in the system. @Compendium[CoC7.items.yqvwz769ZeJplOW7]{Example Talent}
+- _Talent_ - A special power for Pulp Cthulhu. These do not trigger automation in the system. @Compendium[CoC7.items.yqvwz769ZeJplOW7]{Example Talent}
 - _Weapon_ - An item with weapon statistics (this includes unarmed attacks). @Compendium[CoC7.items.3elxAwnv7WCUNwng]{Example Weapon}
 
 # Settings overview
 
-Click on the [fas fa-cogs]Game Settings tab then under the Game Settings heading click on [fas fa-cogs]Configure Settings.
+Click on the [fas fa-cogs]Game Settings tab. Then under the Game Settings heading, click on [fas fa-cogs]Configure Settings.
 
 Click on [fas fa-cogs]System Settings
 
@@ -115,7 +115,7 @@ To access this menu you will need to have an active scene which can be created i
   - _Character creation mode_: When enabled, players can distribute points among their skills.
   - _XP gain_: When enabled, a skill will be marked for improvement after a successful check.
   - _Send a decoy roll to players_: When clicked, players will see a fake GM private roll.
-  - _Start Rest_: When click, pick characters to perform a rest and roll for XP gains.
+  - _Start Rest_: Click and then pick characters to perform a rest and roll for XP gains.
 - _Roll !_: Used to roll 1d100 with a threshold, difficulty and bonus or penalty dice.
 - _Create link_: Create a roll link for players to click
 
